@@ -83,7 +83,7 @@ It's not possible to create a new user.
 - None
 
 ### Test Data:
-- Email: mota@gmail.com
+- Email: teixeira@gmail.com
 - First Name: (leave empty)
 - Last Name: Teixeira
 
@@ -106,7 +106,8 @@ It was not possible to create the user, and I didn´t receive an email with the 
 - Having a temporary password for the website
 
 ### Test Data:
-- None
+- email: teixeira@gmail.com
+- password: 1234
 
 ### Test Steps:
 1. Open Google Chrome.
