@@ -100,8 +100,41 @@ It was not possible to create the user, and I didn´t receive an email with the 
 
 ------------
 
+### Test Case: Logging in with the Temporary Password
+
+### Prerequisites:
+- Having a temporary password for the website
+
+### Test Data:
+- None
+
+### Test Steps:
+1. Open Google Chrome.
+2. Go to https://broadvoice.coderbyte.com/question/qa-analyst-project-zuvjlgxd1c.
+3. Login with the email and temporary password.
+
+### Expected Results:
+Successful login. The home page displays the email address, first name, and last name.
+
+------------
+
+### Test Case: Saving User Email in the Database
+
+### Prerequisites:
+- Having a created user
+
+### Test Data:
+- Email: teixeira@gmail.com
+- First Name: Christophe
+- Last Name: Teixeira
+
+### Test Steps:
+1. Access the database.
+2. Select the tblUser.Email field.
 
 
+### Expected Results:
+The email teixeira@gmail.com is present in the tblUser.Email field.
 
 
 
